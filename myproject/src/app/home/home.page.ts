@@ -22,15 +22,19 @@ export class HomePage {
     }
   }
   validar() {
-    if (!this.username.user || this.username.user.length === 0) {
-      console.log('Sin usuario');
+    const usuario = this.username.user;
+    const contrasena = this.username.password;
+  
+    if (!usuario || usuario.trim().length === 0) {
+      console.log('Usuario no ingresado');
       return;
     }
-
-    if (!this.username.password || this.username.password.length === 0){
-      console.log('Sin contraseña');
+  
+    if (!contrasena || contrasena.trim().length === 0) {
+      console.log('Contraseña no ingresada');
       return;
     }
+  
 
     console.log('');
     console.log('Datos ingresados');
