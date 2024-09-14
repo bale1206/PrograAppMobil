@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <img src="../../assets/img/logo.png" alt="" style="max-width: 100%; height: auto; display: block; margin: auto;">
+    <ion-title>recuperar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">recuperar</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="container">
+    <ion-card>
+      <ion-title>
+        <h1>Restablecer contarseña</h1>
+      </ion-title>
+      <br>
+      <ion-card-content>
+        <ion-item>
+          <ion-input type="text" placeholder="Ingrese su nombre de usuario"></ion-input>
+        </ion-item>
+
+        <ion-button expand="block" [routerLink]="['/']">Recuperar</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
