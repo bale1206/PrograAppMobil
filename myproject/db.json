@@ -1,0 +1,14 @@
+{
+    "users": [
+      {
+        "username": "he.mora",
+        "email": "he.mora@duocuc.cl",
+        "password": "duoc123"
+      },
+      {
+        "username": "va.latorre",
+        "email": "va.latorre@duocuc.cl",
+        "password": "duoc456"
+      }
+    ]
+  }
