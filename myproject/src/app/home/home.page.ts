@@ -21,7 +21,7 @@ export class HomePage {
       password: ''
     }
   }
-  validar() {
+  async validar() {
     const usuario = this.username.user;
     const contrasena = this.username.password;
   

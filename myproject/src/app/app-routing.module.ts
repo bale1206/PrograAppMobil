@@ -22,6 +22,18 @@ const routes: Routes = [
     path: 'api-controller',
     loadChildren: () => import('./api-controller/api-controller.module').then( m => m.ApiControllerPageModule)
   },
+  {
+    path: 'error',
+    loadChildren: () => import('./error/error.module').then( m => m.ErrorPageModule)
+  },
+  {
+    path: 'header',
+    loadChildren: () => import('./Base/header/header.module').then( m => m.HeaderPageModule)
+  },
+  {
+    path: 'controller',
+    loadChildren: () => import('./Admin/controller/controller.module').then( m => m.ControllerPageModule)
+  },
 
 ];
 
